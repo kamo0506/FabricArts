@@ -12,16 +12,16 @@
 
 <body>
     <header class="header">
-        <div class="header__flex">
-            <div class="header__inner">
+        <div class="header__inner">
+            <div class="header__flex">
                 <h1><img class="header__logo" src="./images/img_logo.png" alt="FabricArts"></h1>
+                <ul class="list list__inner">
+                    <li class="list__text">MISSION</li>
+                    <li class="list__text">PROJECT</li>
+                    <li class="list__text">COMPANY</li>
+                    <li class="list__text">CONTACT</li>
+                </ul>
             </div>
-            <li class="list list__inner">
-                <ul class="list__text">MISSION</ul>
-                <ul class="list__text">PROJECT</ul>
-                <ul class="list__text">COMPANY</ul>
-                <ul class="list__text">CONTACT</ul>
-            </li>
         </div>
     </header>
     <main class="main">
@@ -35,20 +35,20 @@
                     <dt class="unit__en">Think outside the box and achieve strategic business innovation.</dt>
                 </dl>
                 <div class="works__flex">
-                    <article class="works__pic">
+                    <article class="card__pic">
                         <img src="./images/pic_works01.png" alt="" class="unit__img">
-                        <h3 class="unit__subtitle">ANYMED</h3>
-                        <p class="unit__info">App</p>
+                        <h3 class="card__title">ANYMED</h3>
+                        <p class="card__info">App</p>
                     </article>
-                    <article class="works__pic">
+                    <article class="card__pic">
                         <img src="./images/pic_works02.png" alt="" class="unit__img">
-                        <h3 class="unit__subtitle">SHINGIN-MAI</h3>
-                        <p class="unit__info">Web site</p>
+                        <h3 class="card__title">SHINGIN-MAI</h3>
+                        <p class="card__info">Web site</p>
                     </article>
-                    <article class="works__pic">
+                    <article class="card__pic">
                         <img src="./images/pic_works03.png" alt="" class="unit__img">
-                        <h3 class="unit__subtitle">KUCHOGIKEN</h3>
-                        <p class="unit__info">Web site / CI</p>
+                        <h3 class="card__title">KUCHOGIKEN</h3>
+                        <p class="card__info">Web site / CI</p>
                     </article>
                 </div>
             </div>
@@ -67,19 +67,32 @@
                     <article class="project__pic">
                         <img src="./images/pic_project01.png" alt="" class="unit__img">
                         <p class="unit__red">株式会社ダイイチ・クリーン</p>
-                        <p class="main__text">お客様に寄り添い続ける家具に想いを乗せる。
+                        <p class="main__text">お客様に寄り添い続ける家具に想いを乗せる。<br>
                             新ブランドの立ち上げをサポート。</p>
                     </article>
                     <article class="project__pic">
                         <img src="./images/pic_project02.png" alt="" class="unit__img">
                         <p class="unit__red">今井運送株式会社</p>
-                        <p class="main__text">運送会社から物流会社へ。
+                        <p class="main__text">運送会社から物流会社へ。<br>
                             会社もWebも変革を遂げていく。</p>
                     </article>
                 </div>
             </div>
         </div>
+        <div class="Newsletter">
+            <div class="Newsletter__inner">
+                <h3 class="Newsletter__title">Newsletter</h3>
+                <form>
+                    <input class="Newsletter__siro" type="text"><input class="Newsletter__btn" type="submit" value="登録">
+                </form>
+            </div>
+        </div>
     </main>
+    <footer class="footer">
+        <div class="footer__inner">
+            <small class="footer__copy">© 2007 FABRIC ARTS INC.</small>
+        </div>
+    </footer>
 </body>
 
 </html>
